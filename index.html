@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Câu 1: Bài tập về Iframe</h1>
+    <p><b>Yêu cầu: </b>Vào trang google map, tìm một địa điểm yêu thích và nhúng thẻ iframe của google map vào website.
+        Để hiển thị được như sau</p>
+    <p><b>Lưu ý:</b>Thử tự lên google tìm hiểu cách nhúng bản đồ vào website</p>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d475873.81953423086!2d105.55075045341157!3d21.280798897265868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135032988fd9be5%3A0x3f0dcf2d1b4079b9!2zU8OzYyBTxqFuLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1676857200018!5m2!1svi!2s"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" height="200" , width="300"></iframe>
+    <h1>Câu 2: Bài tập về form</h1>
+    <p><b>Yêu cầu: </b> Tạo form đăng ký như form bên dưới. Phải có cả thẻ form bọc bên ngoài. Khi click vào thẻ
+        label thì phải focus vào đúng ô input tương ứng với label đó. Các ô input phải yêu cầu nhập nội dung mới cho
+        Đăng ký</p>
+        
+    <form action="">
+        <div>
+            <label for="hoten">Họ tên:</label>
+            <br>
+            <input type="text" placeholder="Ví dụ: levana" autofocus id="ho_ten" name="Ho_ten" required>
+        </div>
+        <div>
+            <label for="email">Email: </label>
+            <br>
+            <input type="Email" placeholder="Ví dụ: levana@gmail.com" autofocus id="email" name="email" required>
+        </div>
+        <div>
+            <label for="password">Mật khẩu: </label>
+            <br>
+            <input type="password" autofocus id="password" required>
+        </div>
+        <div>
+            <label for="number">Kiểu number: </label>
+            <br>
+            <input type="number" id="number" required>
+        </div>
+        <div>
+            <label for="date"> Kiểu date: </label>
+            <br>
+            <input type="date" id="date" required>
+        </div>
+        <div>
+            <label for="time"> Kiểu time: </label>
+            <br>
+            <input type="time" id="time" required>
+        </div>
+        <div>
+            <label for="file"> Kiểu file: </label>
+            <br>
+            <input type="file" multiple required id="file">
+        </div>
+        <div>
+            <label for="radio">Kiểu radio: </label>
+            <br>
+            <input type="radio" id="radio1" name="sex" value="nam">
+            <label for="radio1"> Nam </label>
+            <br>
+            <input type="radio" id="radio2" name="sex" value="nữ">
+            <label for="radio2">Nữ</label>
+            <br>
+            <input type="radio" id="radio3" name="sex" value="Khác">
+            <label for="radio3"> Khác </label>
+            <br>
+        </div>
+        <br>
+        <div>
+            <label for="range"> Kiểu range: </label>
+            <input type="range" min="0" max="100">
+        </div>
+        <br>
+        <div>
+            <label for="color">Kiểu color: </label>
+            <input type="color">
+        </div>
+        <p><b>-Thẻ select: </b></p>
+        <div>
+            <label for="mutil"> Chọ danh mục: </label>
+            <select name="clother" id="mutil">
+                <option value="quan"> Quần </option>
+                <option value="ao">Áo</option>
+                <option value="mu">Mũ</option>
+                <option value="khan">Khăn</option>
+            </select>
+        </div>
+        <p><strong>-Thẻ textarea (có cols=30 và rows = 10): </strong></p>
+        <textarea name="text" id="textarea" cols="30" rows="10">
+            </textarea>
